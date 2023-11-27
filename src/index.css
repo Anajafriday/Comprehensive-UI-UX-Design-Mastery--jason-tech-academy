@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: dark light;
+}
+
+img {
+  max-width: 100%;
+}
+.scroller {
+  animation: scroll 10s linear infinite;
+  transition: transform 500ms ease;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateY(-60%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}

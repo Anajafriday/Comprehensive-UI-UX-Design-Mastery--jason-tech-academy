@@ -1,0 +1,24 @@
+{
+  "name": "comprehensive-uiux-design-mastery--jason-tech-academy",
+  "version": "1.0.0",
+  "description": "uiux design course to equip you with the skill to thrive in the field of user interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "user-interface",
+    "uiux",
+    "ux",
+    "ui",
+    "userexperience",
+    "learn",
+    "jasontechacademy",
+    "course"
+  ],
+  "author": "friday anaja",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
